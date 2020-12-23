@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 5vw auto;
+	max-width: 850px;
+	background-color: #fcf9ed;
+}
+html {
+	scroll-behavior: smooth;
+}
+#headshot {
+width: 40%;
+  height: auto;
+}
+h1 {
+	color: #5e6472;
+	font-size: 2rem;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: #5e6472;
+	margin-top: 0.5rem;
+	line-height: 180%;
+}
+h3 {
+	text-transform: uppercase;
+	font-size: 19.2px;
+	color: #5e6472;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+}
+h4 {
+	font-size: 16px;
+	color: #5e6472;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 100%;
+}
+h5 {
+	font-size: 0.8rem;
+	color: #5e6472;
+	text-align: center;
+}
+p {
+	margin: 16px 0;
+	font-size: 18px;
+	color: #5e6472;
+}
+.tab {
+	display: inline-block;
+	margin-left: 30px;
+}
+.header {
+	background-color: #ffa69e;
+}
+.highlight {
+	color: #3a3c3d;
+	text-decoration: none;
+	border-bottom: 2px solid #ffa69e;
+	padding-bottom: 0;
+}
+.highlight:hover {
+	background-color: #ffa69e;
+}
+.checked {
+	color: b8f2e6;
+}
+.regular {
+	color: #5e6472
+}
+.skills {
+	width: 150px;
+	height: 70px;
+	text-align: left;
+}
+@media (min-width: 850px) {
+	body {
+		width: 80%;
+	}
+	p {
+		font-size: 1.15rem;
+		line-height: 150%;
+	}
+	.image {
+		width: 250px;
+		height: 250px;
+		margin-bottom: 2rem;
+		transition: 0.15s;
+	}
+}
