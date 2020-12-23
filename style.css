@@ -17,6 +17,7 @@ html {
 #headshot {
 width: 40%;
   height: auto;
+  border-radius: 25px;
 }
 h1 {
 	color: #5e6472;
@@ -48,6 +49,8 @@ h5 {
 	font-size: 0.8rem;
 	color: #5e6472;
 	text-align: center;
+  background-color:#aed9e0;
+  padding:10px;
 }
 p {
 	margin: 16px 0;
