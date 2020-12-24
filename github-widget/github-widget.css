@@ -1,53 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .gw-repo-outer {
-  float: left;
-  width: 50%;
-  color:#5e6472ff;
-   font-family: 'Lora', serif;
+	float: left;
+	width: 50%;
+	color: #5e6472ff;
+	font-family: 'Lora', serif;
 }
-.gw-repo-outer:nth-child(2n + 1) {
-  clear: left;
+.gw-repo-outer:nth-child(2n+1) {
+	clear: left;
 }
 .gw-repo {
-  padding: 0.5em 0;
-  margin: 0 1.5em 1em 0;
-  border-top: 1px solid #ccc;
-   font-family: 'Lora', serif;
+	padding: 0.5em 0;
+	margin: 0 1.5em 1em 0;
+	border-top: 1px solid #ccc;
+	font-family: 'Lora', serif;
 }
 .gw-repo:nth-child(2n) {
-  margin: 0 0 1em 1.5em;
+	margin: 0 0 1em 1.5em;
 }
-.gw-title{
-  margin-bottom: 0.3em;
-   font-family: 'Lora', serif;
+.gw-title {
+	margin-bottom: 0.3em;
+	font-family: 'Lora', serif;
 }
 .gw-name {
-  font-weight: bold;
-   font-family: 'Lora', serif;
+	font-weight: bold;
+	font-family: 'Lora', serif;
 }
 .gw-stats {
-  display: inline-block;
-  margin: 0;
-  float: right;
-   font-family: 'Lora', serif;
+	display: inline-block;
+	margin: 0;
+	float: right;
+	font-family: 'Lora', serif;
 }
 .gw-watchers, .gw-forks {
-  display: inline-block;
-  height: 21px;
-  padding: 0 5px 0 23px;
-  line-height: 21px;
-  background: transparent url('repostat.png') no-repeat 0 0;
+	display: inline-block;
+	height: 21px;
+	padding: 0 5px 0 23px;
+	line-height: 21px;
+	background: transparent url('repostat.png') no-repeat 0 0;
 }
 .gw-watchers {
-  background-position: 5px -2px;
+	background-position: 5px -2px;
 }
 .gw-forks {
-  background-position: 5px -52px;
+	background-position: 5px -52px;
 }
 .gw-lang {
-  font-size: 0.8em;
-  color: #777;
+	font-size: 0.8em;
+	color: #777;
 }
 .gw-clearer {
-  clear: left;
+	clear: left;
 }
