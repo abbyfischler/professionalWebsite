@@ -1,13 +1,11 @@
-# Abby Fischler's Professional website 
+# Abby Fischler's Professional website
 
 
 I built this website using html and css. I was inspired by http://chloeyan.me/
 
 ## New Features
 
-  - I changed the former "Skills" section to a project section using https://github.com/jawj/github-widget
-  
-
+  - I changed the former "Skills" section to a project section using https://github.com/Tarptaeya/repo-card
 ## Contributing
 I'm open to contributions, create a pull request!
 
