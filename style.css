@@ -1,3 +1,10 @@
+/*@font-face {
+  font-family: myFirstFont;
+  src: url(Klepon-Ijo.ttf);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -10,6 +17,7 @@ body {
 	margin: 5vw auto;
 	max-width: 850px;
 	background-color: #fcf9ed;
+  font-family: 'Lora', serif;
 }
 html {
 	scroll-behavior: smooth;
@@ -22,6 +30,7 @@ width: 40%;
 h1 {
 	color: #5e6472;
 	font-size: 2rem;
+  
 }
 h2 {
 	text-transform: uppercase;
@@ -56,6 +65,7 @@ p {
 	margin: 16px 0;
 	font-size: 18px;
 	color: #5e6472;
+  
 }
 .tab {
 	display: inline-block;
