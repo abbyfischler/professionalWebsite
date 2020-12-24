@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .gw-repo-outer {
   float: left;
   width: 50%;
+  color:#5e6472ff;
+   font-family: 'Lora', serif;
 }
 .gw-repo-outer:nth-child(2n + 1) {
   clear: left;
@@ -9,20 +12,24 @@
   padding: 0.5em 0;
   margin: 0 1.5em 1em 0;
   border-top: 1px solid #ccc;
+   font-family: 'Lora', serif;
 }
 .gw-repo:nth-child(2n) {
   margin: 0 0 1em 1.5em;
 }
 .gw-title{
   margin-bottom: 0.3em;
+   font-family: 'Lora', serif;
 }
 .gw-name {
   font-weight: bold;
+   font-family: 'Lora', serif;
 }
 .gw-stats {
   display: inline-block;
   margin: 0;
   float: right;
+   font-family: 'Lora', serif;
 }
 .gw-watchers, .gw-forks {
   display: inline-block;
