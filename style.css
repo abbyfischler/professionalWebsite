@@ -90,6 +90,23 @@ p {
 	height: 70px;
 	text-align: left;
 }
+
+/*Project section needs to be different highlight under color */
+.phighlight{
+border-bottom: 2px solid #ffa69e;
+text-decoration: none;
+color: #3a3c3d;
+}
+.phighlight:hover {
+	background-color: #b8f2e6ff;
+}
+.project{
+  background-color: #aed9e0ff;
+  color:white;
+  border-radius: 25px;
+  border-style: dotted;
+  padding: 10px;
+}
 @media (min-width: 850px) {
 	body {
 		width: 80%;
