@@ -14,6 +14,7 @@ body {
 	max-width: 850px;
 	background-color: #fcf9ed;
   font-family: 'Lora', serif;
+  padding:0.25rem 2rem;
 }
 html {
 	scroll-behavior: smooth;
