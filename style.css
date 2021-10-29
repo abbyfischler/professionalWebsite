@@ -123,3 +123,7 @@ color: #3a3c3d;
 		transition: 0.15s;
 	}
 }
+.section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
