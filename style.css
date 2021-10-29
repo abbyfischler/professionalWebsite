@@ -1,11 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -13,22 +12,25 @@ body {
 	margin: 5vw auto;
 	max-width: 850px;
 	background-color: #fcf9ed;
-  font-family: 'Lora', serif;
-  padding:0.25rem 2rem;
+	font-family: "Lora", serif;
+	padding: 0.25rem 2rem;
 }
+
 html {
 	scroll-behavior: smooth;
 }
+
 #headshot {
-width: 40%;
-  height: auto;
-  border-radius: 25px;
+	width: 40%;
+	height: auto;
+	border-radius: 25px;
 }
+
 h1 {
 	color: #5e6472;
 	font-size: 2rem;
-  
 }
+
 h2 {
 	text-transform: uppercase;
 	font-size: 1.5rem;
@@ -36,6 +38,7 @@ h2 {
 	margin-top: 0.5rem;
 	line-height: 180%;
 }
+
 h3 {
 	text-transform: uppercase;
 	font-size: 19.2px;
@@ -44,70 +47,84 @@ h3 {
 	white-space: nowrap;
 	display: inline-block;
 }
+
 h4 {
 	font-size: 16px;
 	color: #5e6472;
 	text-transform: uppercase;
 	line-height: 100%;
 }
+
 h5 {
 	font-size: 0.8rem;
 	color: #5e6472;
 	text-align: center;
-  background-color:#aed9e0ff;
-  padding:10px;
+	background-color: #aed9e0ff;
+	padding: 10px;
 }
+
 p {
 	margin: 16px 0;
 	font-size: 18px;
 	color: #5e6472;
-  
 }
+
 .tab {
 	display: inline-block;
 	margin-left: 30px;
 }
+
 .header {
 	background-color: #ffa69e;
 	padding: 10px;
 }
+
 .highlight {
 	color: #3a3c3d;
 	text-decoration: none;
 	border-bottom: 2px solid #aed9e0ff;
 	padding-bottom: 0;
 }
+
 .highlight:hover {
 	background-color: #b8f2e6ff;
 }
+
 .checked {
 	color: b8f2e6;
 }
+
 .regular {
 	color: #5e6472;
 }
+
 .skills {
 	width: 150px;
 	height: 70px;
 	text-align: left;
 }
 
+
 /*Project section needs to be different highlight under color */
-.phighlight{
-border-bottom: 2px solid #ffa69e;
-text-decoration: none;
-color: #3a3c3d;
+
+.phighlight {
+	border-bottom: 2px solid #ffa69e;
+	text-decoration: none;
+	color: #3a3c3d;
 }
+
 .phighlight:hover {
 	background-color: #b8f2e6ff;
 }
-.project{
-  background-color: #aed9e0ff;
-  color:white;
-  border-radius: 25px;
-  border-style: dotted;
-  padding: 10px;
+
+.project {
+	background-color: #aed9e0ff;
+	color: white;
+	border-radius: 25px;
+	border-style: dotted;
+	padding: 10px;
 }
+
 @media (min-width: 850px) {
 	body {
 		width: 80%;
