@@ -10,7 +10,7 @@ flex-direction: column;
 justify-content: center;
 margin: 5vw auto;
 max-width: 850px;
-background-color: #fcf9ed;
+background-color: #e5c5d0;
 font-family: 'Lora', serif;
 padding:0.25rem 2rem;
 }
@@ -23,20 +23,20 @@ height: auto;
 border-radius: 25px;
 }
 h1 {
-color: #5e6472;
+color: black;
 font-size: 2rem;
 }
 h2 {
 text-transform: uppercase;
 font-size: 1.5rem;
-color: #b8f2e6ff;
+color: black;
 margin-top: 0.5rem;
 line-height: 180%;
 }
 h3 {
 text-transform: uppercase;
 font-size: 19.2px;
-color: #5e6472;
+color: white;
 overflow: hidden;
 white-space: nowrap;
 display: inline-block;
@@ -49,22 +49,21 @@ line-height: 100%;
 }
 h5 {
 font-size: 0.8rem;
-color: #5e6472;
+color: white;
 text-align: center;
-background-color:#aed9e0ff;
+background-color: #C5E5DA;
 padding:10px;
 }
 p {
 margin: 16px 0;
 font-size: 18px;
-color: #5e6472;
+color: black;
 }
 .tab {
 display: inline-block;
 margin-left: 30px;
 }
 .header {
-background-color: #ffa69e;
 padding: 10px;
 }
 .highlight {
@@ -75,6 +74,7 @@ padding-bottom: 0;
 }
 .highlight:hover {
 background-color: #b8f2e6ff;
+color: white;
 }
 .checked {
 color: b8f2e6;
@@ -91,13 +91,13 @@ text-align: left;
 .phighlight{
 border-bottom: 2px solid #ffa69e;
 text-decoration: none;
-color: #3a3c3d;
+color: white;
 }
 .phighlight:hover {
-background-color: #b8f2e6ff;
+background-color: pink;
 }
 .project{
-background-color: #aed9e0ff;
+background-color: #C5E5DA;
 color:white;
 border-radius: 25px;
 border-style: dotted;
