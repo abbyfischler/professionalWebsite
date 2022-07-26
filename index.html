@@ -9,10 +9,21 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	
+
 	<meta property="og:title" content="Abby Fischler">
 	<meta property="og:description" content="I'm a junior at Geffen Academy at UCLA passionate about technology and buisness. Picture credit: Stephanie Loren Photography!">
 	<meta property="og:image" content="https://cloud-7fuai2n1u-hack-club-bot.vercel.app/0032a0924.jpg">
+
+	<meta key="tw_site" name="twitter:site" content="@abbyfischler"/>
+	<title key="title">{makeTitle(title, name)}</title>
+    <meta key="og_title" property="og:title" content={makeTitle(title, name)} />
+    <meta
+      key="tw_title"
+      name="twitter:title"
+      content={makeTitle(title, name)}
+    />
+
+
 </head>
 <body>
 	<script src="script.js">
