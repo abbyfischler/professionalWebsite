@@ -1,120 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
-body {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin: 5vw auto;
-max-width: 850px;
-background-color: #e5c5d0;
-font-family: 'Lora', serif;
-padding:0.25rem 2rem;
+ body {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: 5vw auto;
+     max-width: 850px;
+     background-color: #e5c5d0;
+     font-family: 'Lora', serif;
+     padding:0.25rem 2rem;
 }
-html {
-scroll-behavior: smooth;
+ html {
+     scroll-behavior: smooth;
 }
-#headshot {
-width: 40%;
-height: auto;
-border-radius: 25px;
+ #headshot {
+     width: 40%;
+     height: auto;
+     border-radius: 25px;
 }
-h1 {
-color: black;
-font-size: 2rem;
+ h1 {
+     color: black;
+     font-size: 2rem;
 }
-h2 {
-text-transform: uppercase;
-font-size: 1.5rem;
-color: black;
-margin-top: 0.5rem;
-line-height: 180%;
+ h2 {
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     color: black;
+     margin-top: 0.5rem;
+     line-height: 180%;
 }
-h3 {
-text-transform: uppercase;
-font-size: 19.2px;
-color: white;
-overflow: hidden;
-white-space: nowrap;
-display: inline-block;
+ h3 {
+     text-transform: uppercase;
+     font-size: 19.2px;
+     color: white;
+     overflow: hidden;
+     white-space: nowrap;
+     display: inline-block;
 }
-h4 {
-font-size: 16px;
-color: #5e6472;
-text-transform: uppercase;
-line-height: 100%;
+ h4 {
+     font-size: 16px;
+     color: #5e6472;
+     text-transform: uppercase;
+     line-height: 100%;
 }
-h5 {
-font-size: 0.8rem;
-color: white;
-text-align: center;
-background-color: #C5E5DA;
-padding:10px;
+ h5 {
+     font-size: 0.8rem;
+     color: white;
+     text-align: center;
+     background-color: #C5E5DA;
+     padding:10px;
 }
-p {
-margin: 16px 0;
-font-size: 18px;
-color: black;
+ p {
+     margin: 16px 0;
+     font-size: 18px;
+     color: black;
 }
-.tab {
-display: inline-block;
-margin-left: 30px;
+ .tab {
+     display: inline-block;
+     margin-left: 30px;
 }
-.header {
-padding: 10px;
+ .header {
+     padding: 10px;
 }
-.highlight {
-color: #3a3c3d;
-text-decoration: none;
-border-bottom: 2px solid #aed9e0ff;
-padding-bottom: 0;
+ .highlight {
+     color: #3a3c3d;
+     text-decoration: none;
+     border-bottom: 2px solid #aed9e0ff;
+     padding-bottom: 0;
+     transition: all 0.3s;
 }
-.highlight:hover {
-background-color: #b8f2e6ff;
-color: white;
+ .highlight:hover {
+     background-color: #b8f2e6ff;
+     color: white;
+     border-radius: 5px;
 }
-.checked {
-color: b8f2e6;
+ .checked {
+     color: b8f2e6;
 }
-.regular {
-color: #5e6472;
+ .regular {
+     color: #5e6472;
 }
-.skills {
-width: 150px;
-height: 70px;
-text-align: left;
+ .skills {
+     width: 150px;
+     height: 70px;
+     text-align: left;
 }
 /*Project section needs to be different highlight under color */
-.phighlight{
-border-bottom: 2px solid #ffa69e;
-text-decoration: none;
-color: white;
+ .phighlight{
+     border-bottom: 2px solid #ffa69e;
+     text-decoration: none;
+     color: white;
+     transition: all 0.2s;
 }
-.phighlight:hover {
-background-color: pink;
+ .phighlight:hover {
+     background-color: pink;
+     border-radius: 5px;
 }
-.project{
-background-color: #C5E5DA;
-color:white;
-border-radius: 25px;
-border-style: dotted;
-padding: 10px;
+ .project{
+     background-color: #C5E5DA;
+     color:white;
+     border-radius: 25px;
+     border-style: dotted;
+     padding: 10px;
 }
-@media (min-width: 850px) {
-body {
-width: 80%;
-}
-p {
-font-size: 1.15rem;
-line-height: 150%;
-}
-.image {
-width: 250px;
-height: 250px;
-margin-bottom: 2rem;
-transition: 0.15s;
-}
+ @media (min-width: 850px) {
+     body {
+         width: 80%;
+    }
+     p {
+         font-size: 1.15rem;
+         line-height: 150%;
+    }
+     .image {
+         width: 250px;
+         height: 250px;
+         margin-bottom: 2rem;
+         transition: 0.15s;
+    }
 }
