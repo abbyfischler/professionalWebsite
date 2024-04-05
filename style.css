@@ -1,45 +1,52 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
  
   
-  .abby{
-    font-family: 'Gloock', serif;
-    color:#D81159;
+#abby{
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
   }
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: #d81159;
+}
+
 .wrapper {
-  padding: 0 30% 0 30%; /* The first value is for top padding, the second value is for right padding, the third value is for bottom padding, and the fourth value is for left padding */
+    padding: 2rem;
+    max-width: 768px;
+    margin: 0 auto;
 }
-.reg{
-  font-family: 'Poppins', sans-serif;
-  color:#D81159;
+
+.reg p {
+    font-size: 1rem;
 }
+
 a {
-  color: #57A773;
-  transition: all 0.3s ease;
+    color: #57a773;
+    transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #3EB489;
+    color: #3eb489;
 }
 
-  .gallery {
-  display: flex;
-  flex-wrap: wrap;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .gallery img {
-  max-width: 50%;
-  height: auto;
-  margin-bottom: 10px;
-  padding-right: 10px; /* Add padding between the images */
+    width: 48%;
+    margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
-  .gallery img {
-    width: 100%;
-    padding-right: 0; /* Remove padding for smaller screens */
-  }
+@media (max-width: 480px) {
+    .gallery img {
+        width: 100%;
+    }
 }
-
-
